@@ -71,7 +71,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/relativemodder/tetrio-flatpak.git",
-                    "branch": "main"
+                    "commit": "86828b1db77d06f3e565d9ce48d8c4530ea5d8fa"
                 }
             ],
             "build-commands": [
