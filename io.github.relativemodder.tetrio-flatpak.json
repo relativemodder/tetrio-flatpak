@@ -69,12 +69,13 @@
             "buildsystem": "simple",
             "sources": [
                 {
-                    "type": "dir",
-                    "path": "tetrio-launcher"
+                    "type": "git",
+                    "url": "https://github.com/relativemodder/tetrio-flatpak.git",
+                    "branch": "main"
                 }
             ],
             "build-commands": [
-                "cargo build --release --verbose",
+                "cd tetrio-launcher && cargo build --release --verbose",
                 "install -Dm755 /run/ccache/cargo-target/release/tetrio-launcher /app/bin/tetrio-launcher"
             ]
         }
