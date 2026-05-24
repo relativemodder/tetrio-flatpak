@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=TETR.IO
+Comment=Puzzle together in this modern yet familiar online stacker!
+Exec=tetrio-launcher
+Icon=io.github.relativemodder.tetrio-flatpak
+Terminal=false
+Type=Application
+Categories=Game;
+StartupWMClass=tetrio-desktop

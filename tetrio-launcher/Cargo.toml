@@ -1,0 +1,11 @@
+[package]
+name = "tetrio-launcher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk4 = "0.11.3"
+libadwaita = { version = "0.9.1", features = ["v1_6"] }
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+rust-i18n = "3"

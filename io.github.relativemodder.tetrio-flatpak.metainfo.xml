@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.relativemodder.tetrio-flatpak</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>proprietary</project_license>
+  <name>TETR.IO</name>
+  <summary>Puzzle together in this modern yet familiar online stacker!</summary>
+
+  <description>
+    <p>**This is a community package of TETR.IO and not officially supported by osk.**</p>
+    <p>
+      TETR.IO is a fast-paced multiplayer block stacking game. Play in real-time against players from all over the world, or challenge yourself in singleplayer modes like Marathon, Blitz, or Sprint.
+    </p>
+    <p>
+      This package installs the official TETR.IO desktop client wrapped with a native GTK4/Libadwaita launcher that allows you to easily toggle hardware offloading and Wayland rendering.
+    </p>
+    <ul>
+      <li>Fast-paced competitive multiplayer block stacking</li>
+      <li>Fully-featured singleplayer modes</li>
+      <li>Customizable controls, visual themes, and audio settings</li>
+      <li>Native launcher supporting Discrete GPU offloading and native Wayland</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">io.github.relativemodder.tetrio-flatpak.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://media.rawg.io/media/resize/1280/-/screenshots/5a0/5a0704d07830197a07908ec9be75d9da.jpg</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://tetr.io/</url>
+  <url type="bugtracker">https://github.com/relativemodder/tetrio-flatpak/issues</url>
+
+  <developer_name>Relative</developer_name>
+
+  <provides>
+    <binary>tetrio-launcher</binary>
+  </provides>
+
+  <releases>
+    <release version="10" date="2026-05-24" />
+  </releases>
+
+  <content_rating type="oars-1.1" />
+</component>
