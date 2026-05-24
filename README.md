@@ -1,6 +1,6 @@
 # tetrio-flatpak
 
-Flatpak packaging for the TETR.IO desktop client.
+Unofficial Flatpak packaging for the TETR.IO desktop client.
 
 ## Building and Installing
 
